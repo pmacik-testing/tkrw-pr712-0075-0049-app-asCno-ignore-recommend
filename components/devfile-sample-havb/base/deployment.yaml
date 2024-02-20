@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-havb
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0049-tenant/tkrw-pr712-0075-0049-app/devfile-sample-havb@sha256:b104d106c793eef649168addbbcb572c1227cfb41d2291a60f7c0820b8e488c9
         name: my-nodejs
         ports:
         - containerPort: 3001
